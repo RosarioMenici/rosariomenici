@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!--ICONO-->
+    <link rel="shortcut icon" href="./assets/img/icon.png" type="">
+
+<!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<!-- ICONOS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <title>Casa de Remate</title>
+
+    <!--BOOTSTRAP-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+<!-- navbar-->
+
+    <header>
+        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+        <nav id="navbar" class="navbar fixed-top navbar-expand-lg bg-body-tertiary  ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">CasaDeRemate
+                  </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contactanos.html">Contactanos</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="./pages/catalogo.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Catalogo
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./pages/catalogo.html">Catalogo</a></li>
+                      <li><a class="dropdown-item" href="./pages/ofertas.html">Ofertas</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="./pages/nosotros.html">Nosotros</a></li>
+                    </ul>
+                  </li>
+                
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+        </nav>
+          <!--icono-->
+       <!--<img src="./assets/img/icon.png" alt="">--> 
+        
+    </header>
+   
+
+
+    <main>
+
+        <!--TITULO-->
+        <div class="title text-left">
+    <h1 class="nuestroCatalogo">Nuestro Catálogo</h1>
+</div>
+
+<!--CARRUSEL-->
+<section>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner ">
+          <div class="carousel-item active">
+            <img src="./assets/img/arañas.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/boxeador.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/img/chinas.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</section>
+
+<div class="title text-left">
+<h2 class="colorAmarillo"> Nuestras ofertas</h2>
+</div>
+
+<!--VER MAS OFERTAS BOTON BS-->
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+<a type="button" href="./pages/ofertas.html" class="btn btn-link">VER MAS</a>
+</div>
+<!--
+<section class="container">
+    <div class="row">
+      <div class="col-sm-12 col-lg-3">
+<img src="./assets/img/boxeador.jpg" alt="escultura de boxeador" class="img-fluid" >
+</div> 
+<div class="col-sm-12 col-lg-4 ">
+<img src="./assets/img/chinas.jpg" alt="esculturas chinas" class="img-fluid">
+</div> 
+<div class="col-sm-12 col-lg-5">
+<img src="./assets/img/cubiertos.jpg" alt="cubiertos espanoles" class="img-fluid " class="img-thumbnail"  >
+</div> 
+</div>
+</section>
+-->
+
+
+
+
+<!--CARDS OFERTAS-->
+<div class="row mx-5">
+    <div class="col ml-5"> 
+    <!--TARJETA UNO-->
+
+<div class="card" style="width: 18rem;">
+    <img src="./assets/img/boxeador.jpg" class="card-img-top" alt="...">
+    <div class="card-body d-grid gap-2">
+      <h5 class="card-title">Boxeador</h5>
+      <p class="card-text">Este objeto proviene del siglo XIIX.</p>
+      <a href="./pages/ofertas.html" class="btn btn-dark">OFERTA</a>
+    </div>
+  </div>
+</div>
+<!--TARJETA DOS-->
+<div class="col ml-5">
+  <div class="card" style="width: 18rem;">
+    <img src="./assets/img/chinas.jpg" class="card-img-top" alt="...">
+    <div class="card-body d-grid gap-2">
+      <h5 class="card-title">Esculturas chinas</h5>
+      <p class="card-text">Este objeto proviene del siglo XIIX.</p>
+      <a  href="./pages/ofertas.html" class="btn btn-dark">OFERTA</a>
+    </div>
+  </div>
+</div>
+  <!--TARJETA TRES-->
+  <div class="col ml-5">
+  <div class="card" style="width: 18rem;">
+    <img src="./assets/img/cubiertos.jpg" class="card-img-top" alt="...">
+    <div class="card-body d-grid gap-2" >
+      <h5 class="card-title">Cubiertos españoles</h5>
+      <p class="card-text">Este objeto proviene del siglo XIX.</p>
+      <a  href="./pages/ofertas.html" class="btn btn-dark">OFERTA</a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--VIDEO-->
+<section>
+    
+    <h2 class="nuestraTienda">Un vistazo a nuestra tienda</h2>
+    <div class="container">
+        <!--modificamos tamano con boostrap con ratio-->
+        <div class="ratio ratio-16x9">
+    <video src="./assets/videos/video.mp4" autoplay muted controls loop class="video"></video>
+</div></div></section>
+
+
+<!--TEXTO FINAL DE PAGINA-->
+
+<section class="container">
+<div class="row mx-5">
+<div class="col-lg-4">
+<p class="colorGris"> Nos encontramos en más de 5 ciudades dentro de la provincia de Buenos Aires!</p>
+</div>
+<div class="col-lg-4">
+  <p class="colorGris"> ¨La verdad yo compré una bicicleta que la uso todos los días y a un precio super accesible¨ Tomas Lafontaine..</p>
+</div>
+<div class="col-lg-4">
+  <p class="colorGris"> ¨Hoy tengo en mi casa un super espejo de los años 1800 y cada persona que entra lo ama, como yo!!¨ Laura Pausinni..</p>
+</div>
+</div>
+</section>
+
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+        <ul class="social-icon">
+            <li class="icon-elem">
+                <a href="" class="icon">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+        </a>
+        </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+            </li>
+            <li class="icon-elem">
+                <a href="" class="icon">
+            <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+    </li>
+   
+        </ul>
+    
+        <p class="text">@Año - Todos los derechos reservados </p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+</html>

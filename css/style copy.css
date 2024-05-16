@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/*NAVBAR*/
+
+h1{
+    font-family: "Playfair Display", serif;
+    color: rgb(0, 0, 0);
+text-align: left;
+padding: 25px;
+}
+
+.nuestroCatalogo{
+    font-family: "Playfair Display", serif;
+    margin-top: 40px;
+    color: rgb(0, 0, 0);
+text-align: left;
+padding: 25px;
+
+}
+.ofertasAmarillo{ 
+    color: rgb(196, 27, 27);
+    font-style: oblique;
+    text-align: left;
+    padding: 25px;
+}
+
+.colorGris{
+    font-family: "Playfair Display", serif;
+    color: rgb(58, 78, 78);
+    margin: 40px;
+    padding: 10px;
+    
+}
+
+.objetosTitulo{
+    font-family: "Playfair Display", serif;
+    color: rgb(58, 78, 78);
+    margin-top: 15px;
+   padding: 15px;
+   text-align: left;
+
+
+}
+.colorAmarillo {
+    font-family: "Playfair Display", serif;
+    color: rgb(58, 78, 78);
+    margin: 15px;
+   padding: 15px;
+   text-align: left;
+
+}
+.nuestraTienda{
+    display: flex;
+    font-family: "Playfair Display", serif;
+    color: rgb(58, 78, 78);
+    margin: 15px;
+   padding: 30px;
+   text-align: left;
+
+}
+.verMas{
+    font-family: "Playfair Display", serif;
+    text-align: right;
+    color: rgb(37, 143, 143);
+}
+
+h4 h3{
+    color: black;
+    font-family: "Playfair Display", serif;
+font-weight: bolder;
+}
+.colorRojo{
+    color: brown;
+}
+
+h5{
+    font-family: "Playfair Display", serif;
+    color: darkgray;
+}
+
+/*footer*/
+.footer{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background: rgb(17, 17, 17);
+padding: 15px;
+}
+
+.social-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 5px;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+
+.icon{
+    color: #f7f7f7;
+    font-size: 32px;
+    display: inline-block;
+    margin: 0 10px;
+   
+}
+.icon:hover{
+    transform: translateY(-10px);
+
+}
+
+/*CARRUSEL*/
+.slide{
+    margin-top: 10px;
+}
+.slide img {
+    height: 80vh;
+}
+
+
+
+
+
+/*OFERTAS*/
+.grid-container{
+    display: grid;
+
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: repeat(6, 100px);
+
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.grid-container.grid-item{
+    border: 6px solid black;
+    font-size: 21px;
+    padding: 7px;
+}
+img{
+        width: 100%;
+        height: 100%;
+}
+
+.uno{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+
+.dos{
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.tres{
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+.cuatro{
+    grid-column: 1/2;
+    grid-row: 4/7;
+}
+
+.cinco{
+    grid-column: 2/3;
+    grid-row: 4/7;
+}
+
+.seis{
+    grid-column: 3/4;
+    grid-row: 4/7; 
+}
+
+
+
+/*OFERTAS FOTOS*/
+
+
+
+    :root {
+    --max: 18rem
+
+    }
+    
+   
+    
+    .card {
+    width: var(--max);
+    align-items: center;
+    }
+.card:hover{
+    border: 3px solid #f7f7f7;
+}
+    .ml-5{
+        margin: 0%;
+        padding: 25px;
+    }
+    
+    .card-img-top {
+
+    width: 100%;
+   
+    max-width: var(--max);
+    height: calc(var(--max));
+    object-fit: cover;
+    } 
+
+
+
+    /*CATALOGO*/
+    *#galeria .col-lg-4{
+    margin: 0%;
+    padding: 25px;
+}
+    #galeria img{
+        width: 100%;
+        height: 250px;
+    }
+
